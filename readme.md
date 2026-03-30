@@ -5,21 +5,17 @@
 #  ☁️ Mantap WeatherApp
 by ** FrustDev **
 
-[![Mantap](https://img.shields.io)](https://github.com/mantap-digital-training)
-
-[![Contact](https://img.shields.io)](mailto:info@md.id)
-
-[![X](https://img.shields.io)](https://x.com/mantapdigital)
-
-[![Instagram](https://img.shields.io)](https://instagram.com/mantapdigital)
-
-[![LinkedIn](https://img.shields.io)](https://linkedin.com)
-
-[![YouTube](https://img.shields.io)](https://youtube.com @mantapdigital)
+[![Mantap](https://img.shields.io/badge/Github-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/mantap-digital-training)
+[![Contact](https://img.shields.io/badge/EMail-info@md.id-FF6B6B?style=for-the-badge&logo=mail.ru&logoColor=white)](mailto:info@md.id)  
+[![X](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/mantapdigital)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/mantapdigital)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/mantapdigital)
+[![YouTube](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)](https://youtube.com/@mantapdigital)
 
 
-[! [Demo] (./assets/img/demo.gif) ]
-[![Demo](https://img.shields.io)](https://mantap-digital-training.github.io)
+![Demo](./assets/img/demo.gif)  
+[![Demo](https://img.shields.io/badge/Demo-Visit%20PAGE-blue?style=for-the-badge&logo=google-chrome&logoColor=white)](https://mantap-digital-training.github.io/weatherapp/)  
+
 
 
 Aplikasi web sederhana dengan HTML,CSS,JAVASCRIPT dan api dari 
