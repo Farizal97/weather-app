@@ -1,0 +1,87 @@
+<!-- components/navbar.html -->
+<nav class="navbar">
+  <form id="searchForm" class="search-box">
+    <div class="input-group">
+      <span class="search-icon">🔍</span>
+      <input 
+        type="text" 
+        id="q" 
+        placeholder="Cari nama kota (misal: Jakarta, Tokyo...)" 
+        required 
+        autocomplete="off"
+      >
+    </div>
+    <button type="submit" class="btn-search">Cari</button>
+  </form>
+</nav>
+
+<style>
+  .navbar {
+    background: #fff;
+    padding: 15px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+
+  .search-box {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+  }
+
+  .input-group {
+    position: relative;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+  }
+
+  .search-icon {
+    position: absolute;
+    left: 12px;
+    color: #b2bec3;
+    pointer-events: none;
+  }
+
+  #q {
+    width: 100%;
+    padding: 12px 12px 12px 40px;
+    border: 2px solid #dfe6e9;
+    border-radius: 8px;
+    font-size: 16px;
+    outline: none;
+    transition: border-color 0.3s ease;
+  }
+
+  #q:focus {
+    border-color: #0984e3;
+  }
+
+  .btn-search {
+    background: #2d3436;
+    color: white;
+    border: none;
+    padding: 0 25px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s ease;
+    white-space: nowrap;
+  }
+
+  .btn-search:hover {
+    background: #000;
+  }
+
+  /* Mobile Friendly */
+  @media (max-width: 480px) {
+    .search-box {
+      flex-direction: column;
+    }
+    
+    .btn-search {
+      padding: 12px;
+    }
+  }
+</style>

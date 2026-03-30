@@ -1,0 +1,58 @@
+<!-- components/footer.html -->
+<footer class="main-footer">
+  <div class="footer-content">
+    <p>&copy; 2026 <strong>Mantap Weather</strong>. All rights reserved.</p>
+    <p class="footer-info">
+      Data disediakan secara gratis oleh 
+      <a href="https://open-meteo.com" target="_blank" rel="noopener">Open-Meteo</a> 
+      dan <a href="https://geocoding-api.open-meteo.com" target="_blank" rel="noopener">Geocoding API</a>.
+    </p>
+    <div class="footer-links">
+      <span>Dibuat dengan ❤️ untuk komunitas</span>
+    </div>
+  </div>
+</footer>
+
+<style>
+  .main-footer {
+    margin-top: 40px;
+    padding: 30px 0;
+    border-top: 1px solid #dfe6e9;
+    color: #636e72;
+    font-size: 0.9rem;
+    text-align: center;
+  }
+
+  .footer-content p {
+    margin: 5px 0;
+  }
+
+  .footer-content strong {
+    color: #2d3436;
+  }
+
+  .footer-info a {
+    color: #0984e3;
+    text-decoration: none;
+    font-weight: 500;
+  }
+
+  .footer-info a:hover {
+    text-decoration: underline;
+  }
+
+  .footer-links {
+    margin-top: 15px;
+    font-size: 0.8rem;
+    opacity: 0.8;
+  }
+
+  /* Menjaga footer tetap di bawah jika konten sedikit */
+  @media (min-height: 800px) {
+    .main-footer {
+      position: relative;
+      bottom: 0;
+      width: 100%;
+    }
+  }
+</style>

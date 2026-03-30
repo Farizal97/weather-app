@@ -1,0 +1,92 @@
+<!-- components/header.html -->
+<header class="main-header">
+  <div class="brand">
+    <div class="logo-icon">☁️</div>
+    <div class="brand-text">
+      <h1>Mantap Weather</h1>
+      <p class="tagline">Prakiraan cuaca akurat tanpa API Key</p>
+    </div>
+  </div>
+
+  <div class="header-actions">
+    <button id="btnLocation" class="btn-location" title="Gunakan lokasi saya saat ini">
+      <span class="icon-gps">📍</span> Lokasi Saya
+    </button>
+  </div>
+</header>
+
+<style>
+  .main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+  }
+
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .logo-icon {
+    font-size: 2.5rem;
+  }
+
+  .brand h1 {
+    margin: 0;
+    font-size: 1.5rem;
+    color: #2d3436;
+    letter-spacing: -0.5px;
+  }
+
+  .tagline {
+    margin: 0;
+    font-size: 0.85rem;
+    color: #636e72;
+  }
+
+  .btn-location {
+    background: #0984e3;
+    color: white;
+    border: none;
+    padding: 10px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: background 0.2s ease;
+  }
+
+  .btn-location:hover {
+    background: #074973;
+  }
+
+  .icon-gps {
+    font-size: 1.1rem;
+  }
+
+  /* Responsif untuk HP */
+  @media (max-width: 480px) {
+    .main-header {
+      flex-direction: column;
+      gap: 15px;
+      text-align: center;
+    }
+    .brand {
+      flex-direction: column;
+      gap: 5px;
+    }
+    .header-actions {
+      width: 100%;
+    }
+    .btn-location {
+      width: 100%;
+      justify-content: center;
+    }
+  }
+</style>
